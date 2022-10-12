@@ -1,4 +1,6 @@
-/* Start Global Rules */
+/* 
+Git hub:-https://github.com/abhishekbhonde
+*/
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -24,26 +26,25 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-/* Small */
+
 @media (min-width: 768px) {
     .container {
         width: 750px;
     }
 }
-/* Medium */
+
 @media (min-width: 992px) {
     .container {
         width: 970px;
     }
 }
-/* Large */
+
 @media (min-width: 1200px) {
     .container {
         width: 1170px;
     }
 }
-/* End Global Rules */
-/* Start Header */
+
 .header {
     padding-top: 12px;
     padding-bottom: 12px;
@@ -406,8 +407,7 @@ body {
 .header .container .google-account-tap .policy-and-terms .terms:hover{
     background-color: #f8f4f4;
 }
-/* End Header */
-/* Start Main Content */
+
 .main-content{
     flex-grow: 8.5;
     min-height: 300px;
@@ -521,8 +521,7 @@ body {
 .main-content .container .language-google-offered-with a:hover{
     text-decoration: underline;
 }
-/* End Main Content */
-/* Start Footer */
+
 .footer{
     width: 100%;
     flex-grow: 0.5;
@@ -557,4 +556,4 @@ body {
 .footer .links a:hover{
     text-decoration: underline;
 }
-/* End Footer */
+
